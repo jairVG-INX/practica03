@@ -1,0 +1,32 @@
+/* 1. SELECTOR DE ETIQUETA */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333333;
+}
+
+/* 2. SELECTOR DE CLASE */
+.footer-verde {
+    background-color: #198754; /* Color verde institucional */
+}
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.footer-link:hover {
+    color: #d1e7dd;
+    text-decoration: underline;
+}
+
+.carrusel-img {
+    height: 450px;
+    object-fit: cover;
+}
+
+/* 3. SELECTOR DE ID */
+#carruselHuellitas {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
